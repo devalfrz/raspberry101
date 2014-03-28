@@ -22,6 +22,7 @@ PROJECT_NAME=$1
 # Setup Dirs
 mkdir /home/pi/$PROJECT_NAME
 touch /home/pi/$PROJECT_NAME/led.py
+chmod +x /home/pi/$PROJECT_NAME/led.py
 sudo chown -R pi:pi /home/pi/$PROJECT_NAME
 mkdir /var/www/$PROJECT_NAME
 touch /var/www/$PROJECT_NAME/index.php
