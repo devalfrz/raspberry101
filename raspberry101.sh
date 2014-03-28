@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script created by Alfredo Rius
+
+# This is part of the tutorial Raspberry Pi 101 located in http://behuns.com/howblog/taxonomy/term/5
+
 # Check for root
 if [ "$(id -u)" != "0" ]; then
    echo "Error: Permission Denied" 1>&2
